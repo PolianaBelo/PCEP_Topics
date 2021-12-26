@@ -1,4 +1,4 @@
-# Module 4: Functions, Tuples, Dictionaries, Execeptions, and Data processing
+# Module 4: Functions, Tuples, Dictionaries, Exceptions, and Data processing
 
 ### Functions
 * A set of code that executes a given task.
