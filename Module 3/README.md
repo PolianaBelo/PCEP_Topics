@@ -71,42 +71,42 @@
 * Is a type of data that allows the user to store multiple objects that can be from different types.
 * Elements are indexed and always start from 0.
 * Is possible to access an element separately through its index:
-        - my_list[index]
+    - my_list[index]
 * A list size can be checked using the function len():
-        - len(my_list)
+    - len(my_list)
 * Is possible to use the del instruction to remove single element ou delete an entire list:
-        - del my_list[index]
-        - del my_list
+    - del my_list[index]
+    - del my_list
 * The use of negative index is also allowed. In this case -1 is the last index is the -list_size:
-        - my_list = ['a', 'b', 'c'] can be accessed using my_list[-1] for the last item or my_list[-3] for the first item
+    - my_list = ['a', 'b', 'c'] can be accessed using my_list[-1] for the last item or my_list[-3] for the first item
 * There are two methods that allow the user to add elements to a list:
-        - You can glue an element to the end of a list using: my_list.append(my_list2)
-        - You can add an element in a specific position: my_list.insert(index, value)
+    - You can glue an element to the end of a list using: my_list.append(my_list2)
+    - You can add an element in a specific position: my_list.insert(index, value)
 * In Python you can swap elements of a list using the following:
-        - my_list[a], my_list[b] = my_list[b], my_list[a]
+    - my_list[a], my_list[b] = my_list[b], my_list[a]
 * It is possible to sort a list elements using the sort() method:
-        - my_list.sort()
-        - Valid for list with numbers and strings
+    - my_list.sort()
+    - Valid for list with numbers and strings
 * There is also the method reverse() to reverse the elements of a list:
-        - my_list.reverse()
-        - Valid for list with numbers and strings
+    - my_list.reverse()
+    - Valid for list with numbers and strings
 * A list name refers to the location in memory witch the list is stored
-        - The equality list_2 = list_1 copies de name of the list instead of its content, so they refer to the same list in computer memory.
-        - From the statement above, changing one of the lists will affect the other.
+    - The equality list_2 = list_1 copies de name of the list instead of its content, so they refer to the same list in computer memory.
+    - From the statement above, changing one of the lists will affect the other.
 * It is possible to copy elements from a list to a new one using slices:
-        - list[start:end] will get all elements from start until end-1. If starts access an element after end, the slice will return []. Default start is 0.
-        - list_2 = list_1[:] will copy all the elements
-        - list_2 = list_1[1:3]
-        - Slices can be used when deleting elements or an entire list content: del list_1[1:3] or del list_1[:]
-       -  Obs: del list_1 is different than del list_1[:]
+    - list[start:end] will get all elements from start until end-1. If starts access an element after end, the slice will return []. Default start is 0.
+    - list_2 = list_1[:] will copy all the elements
+    - list_2 = list_1[1:3]
+    - Slices can be used when deleting elements or an entire list content: del list_1[1:3] or del list_1[:]
+    -  Obs: del list_1 is different than del list_1[:]
 * IN and NOT IN operators check if a given value is stored in a list or not:
-        - element in my_list
-        - element not in my_list
+    - element in my_list
+    - element not in my_list
 * List comprehension
-        - Are lists created during the program execution that are not static.
-        - Its syntax contains the data that will fill the list and the clause of how many times the data will be added in the list.
-        - Examples:
-            - new_list = [x * 4 for x in range(8)]
-            - odds_list = [x for x in new_list if x % 2 != 0 ]
-            - multidimentional_list = [[i for i in range(8)] for j in range(8)]
+    - Are lists created during the program execution that are not static.
+    - Its syntax contains the data that will fill the list and the clause of how many times the data will be added in the list.
+    - Examples:
+        - new_list = [x * 4 for x in range(8)]
+        - odds_list = [x for x in new_list if x % 2 != 0 ]
+        - multidimentional_list = [[i for i in range(8)] for j in range(8)]
 
