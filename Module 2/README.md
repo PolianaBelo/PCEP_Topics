@@ -6,11 +6,11 @@ Modules
 Written by programer
 
 ### The print() function
-Can have none or n arguments.
-Accepts the following two kwargs: "end=" to define the last character of the print, and "sep=" to set the character that separates each argument to be printed.
-By default end=\n and sep=" "
-Accepts all types of data offered by Python as argument
-An empty print() outputs a line
+* Can have none or n arguments.
+* Accepts the following two kwargs: "end=" to define the last character of the print, and "sep=" to set the character that separates each argument to be printed.
+* By default end=\n and sep=" "
+* Accepts all types of data offered by Python as argument
+* An empty print() outputs a line
 
 ### Backslash \
 Is a special character that announces about the next character having a special meaning.
