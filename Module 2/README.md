@@ -61,9 +61,9 @@ Written by programer
 
 ### Variables
 * Variable names rules: 
-    ** must begin with a letter or underscore
-    ** python is case sensitive 
-    ** can have letters, digits, and the character underscore
+    - must begin with a letter or underscore
+    - python is case sensitive 
+    - can have letters, digits, and the character underscore
 * According to PEP functions and variables names should have words separated by underscores.
 
 ### Shortcut operators
