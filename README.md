@@ -1,6 +1,6 @@
 # PCEP_Topics
 
-Cheatsheet for PCEP certification (Certified Entry-Level Python Programmer).\
+Cheat sheet for PCEP certification (Certified Entry-Level Python Programmer).\
 All the content is from [Edube Python Essentials course](https://edube.org/study/pe1) .\
 The study topics are organized according to the modules from the course:
   - Module 1: Introductory concepts
